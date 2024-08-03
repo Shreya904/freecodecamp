@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://worldofprintables.com/wp-content/uploads/2023/06/Simple-Pastel-Aesthetic-Wallpaper-650x364.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  #description{
+    margin-left: 615px;
+
+  }
+
+  #survey-form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: grey;
+  }
+  #survey-form-container {
+  position: relative; /* Create a stacking context */
+  z-index: 1; /* Ensure the form is on top of the background */
+}
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  select {
+    width: 100%;
+  }
+  
+ #submit{
+    width: 100%;
+    height: 30px;
+    background-color:rgb(67, 203, 113);
+ }
+  
+  textarea{
+    height: 100px;
+  }
+  
+  
+  

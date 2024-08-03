@@ -1,0 +1,77 @@
+/* Style for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Style for the main container */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title section */
+#title h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Image section */
+#img-div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#img-div img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#img-caption {
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* Tribute info section */
+#tribute-info h2 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+#tribute-info h3 {
+  font-size: 1.5em;
+  margin-top: 15px;
+}
+
+#tribute-info ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#tribute-info ul ul {
+  list-style-type: circle;
+}
+
+#tribute-info p {
+  margin-bottom: 20px;
+}
+
+/* Link section */
+div a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+div a:hover {
+  text-decoration: underline;
+}

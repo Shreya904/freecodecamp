@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div is="survey-form-container">
+      <h1 id="title"> Survey Form</h1>
+      <p id="description"> Thank you for participating in our survey!</p>
+      <form id="survey-form">
+        <label id="name-label"><p><b>Name</b></p>
+        <input id="name" type="text" placeholder="Enter Your Name" required></label>
+          <label id="email-label"><p><b>Email</b></p>
+          <input id="email" type="email" placeholder="Enter Your Email" required></label>
+          <label id="number-label"><p><b>Age</b></p>
+          <input id="number" type="number" min="15" max="60" placeholder="Age" ></label>
+          <p><b>How was your experience?</b></p>
+          <select id="dropdown" placeholder="select an option">
+        <option value="Good"> Good </option>
+        <option value="Bad"> Bad </option>
+        <option value="Average"> Average </option>
+        </select>
+        <p><b>Select your Gender</b></p>
+        <label><input type="radio" value="Male" name="gender" checked>Male</label>
+        <label><input type="radio" value="Female" name="gender">Female</label>
+        <label><input type="radio" value="Others" name="gender">Others</label>
+      <p><b>Communication Preferences:</b></p>
+      <label><input type="checkbox" name="communication" value="Email"> Email</label>
+      <label><input type="checkbox" name="communication" value="SMS"> SMS</label>
+      <label><input type="checkbox" name="communication" value="Phone call"> Phone call</label>
+      <label><input type="checkbox" name="communication" value="Social Media"> Social Media</label>
+      <p><b>Share Your Feedback:</b></p>
+      <textarea placeholder="Enter Your Feedback Here...."></textarea>
+      <input type="submit" id="submit" value="Submit">
+      </form>
+      </div>
+      </body>
+      </html>
